@@ -8,7 +8,7 @@ else
         echo "run this as root"
 fi
 
-sudo dnf install ncurses-devel automake autoconf gcc git -y
+sudo dnf install ncurses-devel automake autoconf gcc git make -y
 
 cd ~
 
